@@ -12,7 +12,6 @@ export default function Login({ navigation }) {
   const [Email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
-
   const [showPassword, setShowPassword] = useState(true)
   const { users } = useContext(UserContext);
   const styles = StyleSheet.create({
