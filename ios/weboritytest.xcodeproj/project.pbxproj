@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* weboritytestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* weboritytestTests.m */; };
+		04F33DBDA449442D9218BA49 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3291E55397E74B048240DD01 /* Gilroy-Heavy.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-weboritytest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-weboritytest.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1D4A0B6D497A9BEBDBCBC669 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3EA8DD24812BC34024BB477E /* PrivacyInfo.xcprivacy */; };
+		20DB7B9C724C4E1DA92B6F24 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F948A338654D0B95E98D98 /* BootSplash.storyboard */; };
+		55DB8A8DD0A7424AB7451C31 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65D3988329A9435CADC56788 /* Gilroy-Regular.ttf */; };
+		60CCC27C7E744B3296DF1396 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94039C2BBBB347EA94AC0A0B /* Gilroy-Light.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-weboritytest-weboritytestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-weboritytest-weboritytestTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		82AEAD5DF7A24DA1844F4660 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AC180533B1C47B0A2299517 /* Gilroy-Bold.ttf */; };
+		83330610DEB64022BE68AB64 /* helper.js in Resources */ = {isa = PBXBuildFile; fileRef = BFF7A7CF9406400F9BD2B648 /* helper.js */; };
+		A9A3D7BDFF21472A96ACFE22 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F8F02DCDEC4452885BFDD7A /* Gilroy-Medium.ttf */; };
+		C34E25334E754229A6C3EC18 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53341072EF04924B85D9A04 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +39,8 @@
 		00E356EE1AD99517003FC87E /* weboritytestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weboritytestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* weboritytestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weboritytestTests.m; sourceTree = "<group>"; };
+		02F948A338654D0B95E98D98 /* BootSplash.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = BootSplash.storyboard; path = weboritytest/BootSplash.storyboard; sourceTree = "<group>"; };
+		0F8F02DCDEC4452885BFDD7A /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-Medium.ttf"; path = "../Assets/Fonts/Gilroy-Medium.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* weboritytest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weboritytest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = weboritytest/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = weboritytest/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,12 +49,19 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = weboritytest/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = weboritytest/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-weboritytest-weboritytestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-weboritytest-weboritytestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC180533B1C47B0A2299517 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-Bold.ttf"; path = "../Assets/Fonts/Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		3291E55397E74B048240DD01 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-Heavy.ttf"; path = "../Assets/Fonts/Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-weboritytest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weboritytest.debug.xcconfig"; path = "Target Support Files/Pods-weboritytest/Pods-weboritytest.debug.xcconfig"; sourceTree = "<group>"; };
+		3EA8DD24812BC34024BB477E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = weboritytest/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-weboritytest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weboritytest.release.xcconfig"; path = "Target Support Files/Pods-weboritytest/Pods-weboritytest.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-weboritytest-weboritytestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weboritytest-weboritytestTests.debug.xcconfig"; path = "Target Support Files/Pods-weboritytest-weboritytestTests/Pods-weboritytest-weboritytestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-weboritytest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-weboritytest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D3988329A9435CADC56788 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-Regular.ttf"; path = "../Assets/Fonts/Gilroy-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = weboritytest/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-weboritytest-weboritytestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weboritytest-weboritytestTests.release.xcconfig"; path = "Target Support Files/Pods-weboritytest-weboritytestTests/Pods-weboritytest-weboritytestTests.release.xcconfig"; sourceTree = "<group>"; };
+		94039C2BBBB347EA94AC0A0B /* Gilroy-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-Light.ttf"; path = "../Assets/Fonts/Gilroy-Light.ttf"; sourceTree = "<group>"; };
+		A53341072EF04924B85D9A04 /* Colors.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = weboritytest/Colors.xcassets; sourceTree = "<group>"; };
+		BFF7A7CF9406400F9BD2B648 /* helper.js */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = helper.js; path = ../Assets/Fonts/helper.js; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -94,6 +112,9 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				3EA8DD24812BC34024BB477E /* PrivacyInfo.xcprivacy */,
+				02F948A338654D0B95E98D98 /* BootSplash.storyboard */,
+				A53341072EF04924B85D9A04 /* Colors.xcassets */,
 			);
 			name = weboritytest;
 			sourceTree = "<group>";
@@ -124,6 +145,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D33B8D3653F5481A849CC952 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -148,6 +170,19 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-weboritytest-weboritytestTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D33B8D3653F5481A849CC952 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AC180533B1C47B0A2299517 /* Gilroy-Bold.ttf */,
+				3291E55397E74B048240DD01 /* Gilroy-Heavy.ttf */,
+				94039C2BBBB347EA94AC0A0B /* Gilroy-Light.ttf */,
+				0F8F02DCDEC4452885BFDD7A /* Gilroy-Medium.ttf */,
+				65D3988329A9435CADC56788 /* Gilroy-Regular.ttf */,
+				BFF7A7CF9406400F9BD2B648 /* helper.js */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +280,15 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1D4A0B6D497A9BEBDBCBC669 /* PrivacyInfo.xcprivacy in Resources */,
+				82AEAD5DF7A24DA1844F4660 /* Gilroy-Bold.ttf in Resources */,
+				04F33DBDA449442D9218BA49 /* Gilroy-Heavy.ttf in Resources */,
+				60CCC27C7E744B3296DF1396 /* Gilroy-Light.ttf in Resources */,
+				A9A3D7BDFF21472A96ACFE22 /* Gilroy-Medium.ttf in Resources */,
+				55DB8A8DD0A7424AB7451C31 /* Gilroy-Regular.ttf in Resources */,
+				83330610DEB64022BE68AB64 /* helper.js in Resources */,
+				20DB7B9C724C4E1DA92B6F24 /* BootSplash.storyboard in Resources */,
+				C34E25334E754229A6C3EC18 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +561,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -544,6 +589,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CXX = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -563,6 +609,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -582,7 +630,14 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -590,6 +645,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -617,6 +673,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CXX = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -629,6 +686,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -647,7 +706,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
